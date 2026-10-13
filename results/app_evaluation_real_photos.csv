@@ -1,0 +1,33 @@
+photo,true,predicted,correct,confidence,name,description
+Blusa/01.jpg,Blusa,Vestido,False,0.804,Vestido blanco,un vestido con polkas blancas
+Blusa/02.jpg,Blusa,Vestido,False,0.614,Vestido azul,una parte superior azul y verde con un gran arco
+Blusa/03.jpg,Blusa,Playera,False,0.259,Playera roja,una parte superior de la cosecha con una impresión roja y negra
+Bolsa/01.jpg,Bolsa,Bolsa,True,0.896,Bolsa negra,un bolso negro con una cadena en el mango
+Bolsa/02.jpg,Bolsa,Bolsa,True,0.355,Bolsa blanca,la bolsa de embrague blanca
+Calcetines/01.jpg,Calcetines,Calcetines,True,0.948,Calcetines blancos,dos pares de calcetines blancos
+Calcetines/02.jpg,Calcetines,Calcetines,True,0.698,Calcetines,dos pares de calcetines
+Camisa/01.jpg,Camisa,Camisa,True,0.86,Camisa azul,una camisa de vaquero azul claro con un botón en la parte delantera
+Camisa/02.jpg,Camisa,Camisa,True,0.857,Camisa blanca,una camisa blanca y azul con un oso de peluche rojo
+Camisa/03.jpg,Camisa,Camisa,True,0.777,Camisa blanca,una camisa blanca
+Jeans/01.jpg,Jeans,Jeans,True,0.642,Jeans,un par de vaqueros
+Jeans/02.jpg,Jeans,Jeans,True,0.931,Jeans,un par de vaqueros
+Mochila/01.jpg,Mochila,Mochila,True,0.964,Mochila,la mochila
+Mochila/02.jpg,Mochila,Mochila,True,0.982,Mochila,una mochila
+Mochila/03.jpg,Mochila,Bolsa,False,0.881,Bolsa café,una mochila de cuero marrón con dos bolsillos y una correa
+Mochila/04.jpg,Mochila,Mochila,True,0.932,Mochila café,una mochila marrón y blanco
+Pantalón/01.jpg,Pantalón,Pantalón,True,0.197,Pantalón,un par de leggings con estampado floral
+Pantalón/02.jpg,Pantalón,Jeans,False,0.506,Jeans azules,un par de pantalones azules
+Playera/01.jpg,Playera,Playera,True,0.892,Playera,levi niños t - camisa tamaño 6 - 8
+Playera/02.jpg,Playera,Playera,True,0.536,Playera gris,una camiseta gris t con letras rosadas
+Playera/03.jpg,Playera,Playera,True,0.857,Playera rosa,una camisa rosa con el número 37
+Reloj/01.jpg,Reloj,Reloj,True,0.615,Reloj,reloj de manzana 42mm
+Reloj/02.jpg,Reloj,Reloj,True,0.314,Reloj,reloj de manzana serie 3
+Reloj/03.jpg,Reloj,Reloj,True,0.828,Reloj,un reloj
+Sandalias/01.jpg,Sandalias,Sandalias,True,0.703,Sandalias negras,un par de chanclas negras
+Sandalias/02.jpg,Sandalias,Sandalias,True,0.652,Sandalias blancas,un par de sandalias blancas
+Short/01.jpg,Short,Calcetines,False,0.291,Calcetines azules,un par de pantalones azules
+Short/02.jpg,Short,Jeans,False,0.256,Jeans azules,un par de vaqueros azules con agujeros y frays
+Tenis/01.jpg,Tenis,Tenis,True,0.309,Tenis,un par de zapatos
+Tenis/02.jpg,Tenis,Tenis,True,0.851,Tenis,aire de nike max ultra 2
+Vestido/01.jpg,Vestido,Vestido,True,0.562,Vestido rosa,un vestido rosa
+Vestido/02.jpg,Vestido,Vestido,True,0.297,Vestido blanco,un vestido blanco y azul
