@@ -62,6 +62,7 @@ def photo_tab(pipes):
     left, right = st.columns([1, 2])
     left.image(image)
     with right:
+        st.subheader(f"Categoría / Category: {entry['category']} ({entry['confidence']:.0%})")
         if entry["confidence"] < LOW_CONFIDENCE:
             st.warning("No estoy seguro de la categoría, revísala. / Low confidence: please check the category.")
         st.caption("Opciones / Options: " + ", ".join(f"{p['label']} ({p['score']:.0%})" for p in entry["top3"]))
