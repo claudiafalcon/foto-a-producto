@@ -10,3 +10,7 @@ data/real_photos/
 # working notes and drafts (kept private)
 GUIDE.md
 docs/*.md
+
+# private drafts for the submission (report, slides)
+submission_drafts/
+docs/*.docx
