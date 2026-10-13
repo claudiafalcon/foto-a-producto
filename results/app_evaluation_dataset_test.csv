@@ -1,0 +1,141 @@
+photo,true,predicted,correct,confidence,name,description
+Blusa/16130.jpg,Blusa,Blusa,True,0.971,Blusa rosa,una mujer en una camisa rosa y pantalones negros
+Blusa/26361.jpg,Blusa,Blusa,True,0.843,Blusa morada,una mujer en camisa púrpura y pantalones vaqueros
+Blusa/33540.jpg,Blusa,Blusa,True,0.995,Blusa roja,una mujer en una camisa roja y jeans
+Blusa/41762.jpg,Blusa,Blusa,True,0.988,Blusa,una mujer en una camisa de camuflaje y pantalones cortos
+Blusa/45970.jpg,Blusa,Blusa,True,0.854,Blusa,una mujer en pantalones vaqueros y una camiseta t
+Blusa/4920.jpg,Blusa,Blusa,True,0.825,Blusa roja,una camiseta roja con un logotipo blanco en la parte delantera
+Blusa/5759.jpg,Blusa,Blusa,True,0.994,Blusa negra,una mujer en un top negro y jeans
+Blusa/5763.jpg,Blusa,Blusa,True,0.987,Blusa verde,una mujer en pantalones verdes y una camisa negra
+Blusa/5794.jpg,Blusa,Blusa,True,0.991,Blusa negra,una mujer en un top negro y pantalones grises
+Blusa/6190.jpg,Blusa,Blusa,True,0.932,Blusa,una mujer de pie
+Bolsa/21968.jpg,Bolsa,Bolsa,True,0.983,Bolsa café,una bolsa de plástico marrón con un agujero en el medio
+Bolsa/21977.jpg,Bolsa,Bolsa,True,0.99,Bolsa café,un bolso de cuero marrón con un mango negro
+Bolsa/25229.jpg,Bolsa,Bolsa,True,0.996,Bolsa,la bolsa de cara norte
+Bolsa/25230.jpg,Bolsa,Bolsa,True,0.998,Bolsa azul,una bolsa azul con un mango blanco
+Bolsa/36070.jpg,Bolsa,Bolsa,True,0.998,Bolsa azul,la gran bolsa azul marino
+Bolsa/36673.jpg,Bolsa,Bolsa,True,0.996,Bolsa morada,una bolsa púrpura con un mango y un mango
+Bolsa/43228.jpg,Bolsa,Bolsa,True,0.998,Bolsa,la bolsa de la fila tote
+Bolsa/53715.jpg,Bolsa,Bolsa,True,0.996,Bolsa blanca,un bolso blanco con un mango y un mango
+Bolsa/54177.jpg,Bolsa,Bolsa,True,0.982,Bolsa amarilla,un bolso amarillo con un mango amarillo
+Bolsa/54397.jpg,Bolsa,Bolsa,True,0.971,Bolsa negra,"la bolsa negra es una bolsa pequeña, negra con un mango"
+Calcetines/29116.jpg,Calcetines,Calcetines,True,0.998,Calcetines,Calcetines de pu
+Calcetines/29211.jpg,Calcetines,Calcetines,True,0.998,Calcetines azules,un par de calcetines azules
+Calcetines/35246.jpg,Calcetines,Calcetines,True,0.995,Calcetines negros,un par de calcetines blancos y negros
+Calcetines/49267.jpg,Calcetines,Calcetines,True,0.998,Calcetines negros,un par de calcetines negros
+Calcetines/49989.jpg,Calcetines,Calcetines,True,0.993,Calcetines blancos,un par de calcetines blancos con tacón marrón
+Calcetines/51168.jpg,Calcetines,Calcetines,True,0.999,Calcetines negros,un par de calcetines negros
+Calcetines/51170.jpg,Calcetines,Calcetines,True,0.998,Calcetines negros,un par de calcetines negros
+Calcetines/58295.jpg,Calcetines,Calcetines,True,0.998,Calcetines negros,un par de calcetines negros
+Calcetines/58305.jpg,Calcetines,Calcetines,True,0.998,Calcetines verdes,un par de calcetines con un calcetín verde
+Calcetines/58318.jpg,Calcetines,Calcetines,True,0.998,Calcetines blancos,un calcetín blanco con un logotipo blanco y negro
+Camisa/11044.jpg,Camisa,Camisa,True,0.929,Camisa blanca,un hombre con camisa blanca y pantalones negros
+Camisa/11119.jpg,Camisa,Camisa,True,0.994,Camisa blanca,un hombre con camisa blanca y pantalones negros
+Camisa/19697.jpg,Camisa,Camisa,True,0.989,Camisa blanca,un hombre con camisa blanca y pantalones negros
+Camisa/19824.jpg,Camisa,Camisa,True,0.995,Camisa,un hombre en una camisa de cuadros y vaqueros
+Camisa/33250.jpg,Camisa,Camisa,True,0.987,Camisa blanca,una camisa blanca con una raya blanca y negra
+Camisa/37800.jpg,Camisa,Camisa,True,0.981,Camisa blanca,un hombre con camisa blanca y pantalones marrones
+Camisa/48363.jpg,Camisa,Camisa,True,0.996,Camisa,un hombre con camisa y pantalones marrones
+Camisa/6017.jpg,Camisa,Camisa,True,0.975,Camisa verde,un hombre con camisa verde y pantalones vaqueros
+Camisa/9260.jpg,Camisa,Camisa,True,0.997,Camisa azul,un hombre con camisa azul y pantalones negros
+Camisa/9567.jpg,Camisa,Camisa,True,0.996,Camisa azul,un hombre con camisa azul y pantalones negros
+Jeans/16919.jpg,Jeans,Jeans,True,0.996,Jeans verdes,un hombre con camisa verde y pantalones vaqueros
+Jeans/20351.jpg,Jeans,Jeans,True,0.997,Jeans negros,un hombre con camisa negra y jeans
+Jeans/24202.jpg,Jeans,Jeans,True,0.997,Jeans negros,un hombre con camisa negra y jeans
+Jeans/24995.jpg,Jeans,Short,False,0.994,Short,un par de pantalones cortos
+Jeans/39385.jpg,Jeans,Pantalón,False,0.984,Pantalón negro,un hombre con camisa negra y pantalones grises
+Jeans/51354.jpg,Jeans,Jeans,True,0.988,Jeans,una mujer en una camisa a rayas y pantalones vaqueros
+Jeans/54792.jpg,Jeans,Jeans,True,0.985,Jeans blancos,un hombre con camisa blanca y pantalones vaqueros
+Jeans/5771.jpg,Jeans,Jeans,True,0.985,Jeans rosa,una mujer en un top rosa y pantalones negros
+Jeans/7708.jpg,Jeans,Jeans,True,0.997,Jeans rojos,una mujer en una camisa roja y jeans
+Jeans/9143.jpg,Jeans,Jeans,True,0.991,Jeans rosa,una mujer en un top rosa y jeans
+Lentes de sol/16084.jpg,Lentes de sol,Lentes de sol,True,0.998,Lentes de sol blancos,un par de gafas de sol con fondo blanco
+Lentes de sol/17213.jpg,Lentes de sol,Lentes de sol,True,0.997,Lentes de sol blancos,un par de gafas de sol con fondo blanco
+Lentes de sol/17215.jpg,Lentes de sol,Lentes de sol,True,0.999,Lentes de sol morados,un par de gafas de sol con lentes púrpuras
+Lentes de sol/21343.jpg,Lentes de sol,Lentes de sol,True,0.998,Lentes de sol blancos,un par de gafas de sol con fondo blanco
+Lentes de sol/28196.jpg,Lentes de sol,Lentes de sol,True,0.998,Lentes de sol blancos,un par de gafas de sol con fondo blanco
+Lentes de sol/28388.jpg,Lentes de sol,Lentes de sol,True,0.998,Lentes de sol negros,un par de gafas de sol con un marco negro y lente marrón
+Lentes de sol/28390.jpg,Lentes de sol,Lentes de sol,True,0.999,Lentes de sol blancos,un par de gafas de sol con fondo blanco
+Lentes de sol/29884.jpg,Lentes de sol,Lentes de sol,True,0.998,Lentes de sol morados,un par de gafas de sol con lentes púrpuras
+Lentes de sol/8651.jpg,Lentes de sol,Lentes de sol,True,0.994,Lentes de sol negros,un par de gafas de sol negras
+Lentes de sol/8683.jpg,Lentes de sol,Lentes de sol,True,0.999,Lentes de sol verdes,un par de gafas de sol con lentes verdes
+Mochila/15666.jpg,Mochila,Mochila,True,0.989,Mochila negra,una bolsa negra con cierre de cremallera
+Mochila/19315.jpg,Mochila,Mochila,True,0.998,Mochila,Mochilas antinieblas
+Mochila/20939.jpg,Mochila,Mochila,True,0.998,Mochila,una mochila con cierre de cremallera
+Mochila/29317.jpg,Mochila,Mochila,True,0.998,Mochila negra,una mochila negra con logo azul
+Mochila/30199.jpg,Mochila,Mochila,True,0.998,Mochila,la mochila cara norte
+Mochila/35180.jpg,Mochila,Mochila,True,0.999,Mochila gris,una mochila gris con cierre de cremallera
+Mochila/37673.jpg,Mochila,Mochila,True,0.998,Mochila,una mochila con un patrón
+Mochila/42934.jpg,Mochila,Mochila,True,0.998,Mochila,la mochila cara norte
+Mochila/4583.jpg,Mochila,Mochila,True,0.998,Mochila negra,una mochila negra con cierre de cremallera
+Mochila/9526.jpg,Mochila,Mochila,True,0.998,Mochila,la mochila cara norte
+Pantalón/14697.jpg,Pantalón,Pantalón,True,0.992,Pantalón negro,un hombre con camisa negra y pantalones blancos
+Pantalón/16019.jpg,Pantalón,Pantalón,True,0.993,Pantalón negro,un hombre en un suéter negro y pantalones
+Pantalón/16066.jpg,Pantalón,Pantalón,True,0.995,Pantalón gris,un hombre con camisa gris y pantalones negros
+Pantalón/26843.jpg,Pantalón,Pantalón,True,0.997,Pantalón blanco,un hombre con camisa blanca y pantalones grises
+Pantalón/27907.jpg,Pantalón,Pantalón,True,0.994,Pantalón verde,una mujer con camisa verde y pantalones negros
+Pantalón/27912.jpg,Pantalón,Pantalón,True,0.985,Pantalón negro,una mujer en un top negro y pantalones
+Pantalón/29782.jpg,Pantalón,Pantalón,True,0.996,Pantalón azul,un hombre con camisa azul y pantalones verdes
+Pantalón/32406.jpg,Pantalón,Pantalón,True,0.993,Pantalón blanco,un hombre con camisa blanca y pantalones negros
+Pantalón/43521.jpg,Pantalón,Pantalón,True,0.991,Pantalón blanco,una mujer en un suéter blanco y pantalones negros
+Pantalón/8892.jpg,Pantalón,Pantalón,True,0.988,Pantalón gris,un hombre con camisa gris y pantalones azules
+Playera/10579.jpg,Playera,Playera,True,0.981,Playera negra,un hombre con camisa negra y jeans
+Playera/1540.jpg,Playera,Playera,True,0.996,Playera negra,un hombre con camisa negra y jeans
+Playera/16501.jpg,Playera,Playera,True,0.996,Playera negra,un hombre con camisa negra y jeans
+Playera/29025.jpg,Playera,Playera,True,0.996,Playera amarilla,un hombre con camisa amarilla y pantalones vaqueros azules
+Playera/30356.jpg,Playera,Playera,True,0.994,Playera gris,un hombre con camisa gris y pantalones negros
+Playera/30585.jpg,Playera,Playera,True,0.983,Playera,cara norte camiseta de manga corta de los hombres
+Playera/3584.jpg,Playera,Playera,True,0.89,Playera blanca,una camiseta marina con un logotipo blanco en la parte delantera
+Playera/35891.jpg,Playera,Playera,True,0.96,Playera amarilla,una camiseta t amarilla con una camisa blanca debajo
+Playera/5527.jpg,Playera,Playera,True,0.997,Playera morada,un hombre con camisa púrpura y pantalones negros
+Playera/6485.jpg,Playera,Playera,True,0.987,Playera blanca,un hombre con camisa blanca y pantalones vaqueros
+Reloj/10107.jpg,Reloj,Reloj,True,0.98,Reloj blanco,un reloj con una cara blanca y esfera negra
+Reloj/10329.jpg,Reloj,Reloj,True,0.996,Reloj dorado,un reloj de oro con una esfera blanca
+Reloj/19757.jpg,Reloj,Reloj,True,0.998,Reloj negro,un reloj con una correa negra
+Reloj/29526.jpg,Reloj,Reloj,True,0.998,Reloj rosa,un reloj rosa con una cara plateada
+Reloj/29947.jpg,Reloj,Reloj,True,0.998,Reloj negro,un reloj con una correa negra
+Reloj/30052.jpg,Reloj,Reloj,True,0.998,Reloj negro,un reloj con una correa negra
+Reloj/38038.jpg,Reloj,Reloj,True,0.996,Reloj negro,Casio casio reloj negro
+Reloj/44980.jpg,Reloj,Reloj,True,0.998,Reloj negro,un reloj negro con una cara roja
+Reloj/45911.jpg,Reloj,Reloj,True,0.992,Reloj negro,un reloj con una esfera negra y una cara blanca
+Reloj/56670.jpg,Reloj,Reloj,True,0.998,Reloj blanco,un reloj blanco con una cara negra
+Sandalias/10623.jpg,Sandalias,Sandalias,True,0.723,Sandalias doradas,un par de pendientes chapados en oro
+Sandalias/14340.jpg,Sandalias,Sandalias,True,0.997,Sandalias rojas,un par de chanclas rojas
+Sandalias/23821.jpg,Sandalias,Sandalias,True,0.997,Sandalias negras,un par de chanclas negras
+Sandalias/34522.jpg,Sandalias,Sandalias,True,0.996,Sandalias negras,un par de zapatillas negras
+Sandalias/3828.jpg,Sandalias,Sandalias,True,0.994,Sandalias rojas,un silbato de plástico rojo y negro con un mango negro
+Sandalias/47117.jpg,Sandalias,Sandalias,True,0.996,Sandalias azules,un par de chanclas azules
+Sandalias/50736.jpg,Sandalias,Sandalias,True,0.993,Sandalias,zapatillas de hombre
+Sandalias/50763.jpg,Sandalias,Sandalias,True,0.996,Sandalias negras,un par de sandalias de cuero negro
+Sandalias/5530.jpg,Sandalias,Sandalias,True,0.998,Sandalias negras,un par de zapatillas negras
+Sandalias/6315.jpg,Sandalias,Sandalias,True,0.994,Sandalias negras,un par de chanclas negras y amarillas
+Short/2574.jpg,Short,Short,True,0.894,Short amarillo,una mujer en un top amarillo y pantalones cortos grises
+Short/28460.jpg,Short,Short,True,0.992,Short rosa,una mujer en pantalones cortos de color rosa y una camiseta negra
+Short/29177.jpg,Short,Short,True,0.995,Short,un par de pantalones cortos
+Short/31287.jpg,Short,Short,True,0.996,Short blanco,un hombre con camisa blanca y pantalones cortos negros
+Short/32420.jpg,Short,Short,True,0.996,Short negro,un hombre con camisa negra y pantalones cortos
+Short/40095.jpg,Short,Short,True,0.996,Short blanco,un hombre con camisa blanca y pantalones cortos negros
+Short/46387.jpg,Short,Short,True,0.995,Short azul,un hombre con camisa azul y pantalones cortos negros
+Short/51382.jpg,Short,Short,True,0.993,Short,un hombre con una camisa granate y pantalones cortos caqui
+Short/7687.jpg,Short,Short,True,0.997,Short rojo,un hombre con camisa roja y pantalones cortos blancos
+Short/9510.jpg,Short,Short,True,0.995,Short verde,un hombre con camisa verde y pantalones cortos blancos
+Tenis/22501.jpg,Tenis,Tenis,True,0.984,Tenis,un par de zapatos
+Tenis/25479.jpg,Tenis,Tenis,True,0.997,Tenis azules,un par de zapatos con colores azul y blanco
+Tenis/26536.jpg,Tenis,Tenis,True,0.998,Tenis,Zapatos de puki
+Tenis/28658.jpg,Tenis,Tenis,True,0.998,Tenis negros,aire nike max blanco negro
+Tenis/33766.jpg,Tenis,Tenis,True,0.997,Tenis azules,un par de zapatillas azules
+Tenis/39280.jpg,Tenis,Tenis,True,0.996,Tenis,botas de cuero para hombres
+Tenis/4491.jpg,Tenis,Tenis,True,0.996,Tenis blancos,Nike fuerza aérea bajo blanco negro
+Tenis/4531.jpg,Tenis,Tenis,True,0.998,Tenis,zapatos de mujer puer
+Tenis/4640.jpg,Tenis,Tenis,True,0.997,Tenis negros,un par de zapatillas negras y naranjas
+Tenis/6799.jpg,Tenis,Tenis,True,0.996,Tenis amarillos,un par de zapatillas amarillas
+Vestido/34062.jpg,Vestido,Vestido,True,0.994,Vestido rosa,una muñeca en un vestido rosa
+Vestido/37198.jpg,Vestido,Vestido,True,0.989,Vestido rosa,una mujer en un vestido rosa
+Vestido/37267.jpg,Vestido,Vestido,True,0.99,Vestido rojo,un vestido rojo con un arco en la espalda
+Vestido/39217.jpg,Vestido,Vestido,True,0.995,Vestido morado,una mujer en un vestido púrpura
+Vestido/43645.jpg,Vestido,Vestido,True,0.991,Vestido blanco,una mujer en un vestido con un cinturón blanco
+Vestido/5007.jpg,Vestido,Vestido,True,0.972,Vestido rojo,un vestido rojo
+Vestido/52130.jpg,Vestido,Vestido,True,0.993,Vestido negro,un pequeño perro blanco y negro con cuello blanco
+Vestido/57054.jpg,Vestido,Vestido,True,0.987,Vestido amarillo,una mujer con un vestido amarillo
+Vestido/59989.jpg,Vestido,Vestido,True,0.979,Vestido negro,una mujer con un vestido negro y tacones
+Vestido/6893.jpg,Vestido,Vestido,True,0.944,Vestido negro,una mujer en un vestido negro
