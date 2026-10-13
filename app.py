@@ -6,6 +6,7 @@ The merchant uploads a photo and the app:
     3. Translates the description   -> translate()  translation English -> Spanish, Opus-MT
 The merchant reviews and edits the proposal before adding it to the catalog.
 """
+import base64
 import os
 
 import pandas as pd
@@ -67,38 +68,63 @@ def propose_entry(pipes, image, show_step=None):
 # ---------- Page ----------
 
 def apply_styles():
+    """Same look as the Nahui app: warm background, tinted product-tag cards, terracotta pill buttons."""
     st.markdown("""
     <style>
-      .block-container {max-width: 980px; padding-top: 2rem;}
-      .hero {text-align: center; margin-bottom: 1.2rem;}
-      .hero h1 {font-size: 2.6rem; margin-bottom: 0.2rem;}
-      .hero p {color: #6B6259; font-size: 1.05rem;}
-      .step {background: #ffffff; border: 1px solid #E8E2DC; border-radius: 16px; padding: 1rem 1.1rem;
-             height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.04);}
-      .step .num {display: inline-block; width: 1.8rem; height: 1.8rem; border-radius: 50%; background: #C13F26;
-                  color: #fff; text-align: center; line-height: 1.8rem; font-weight: 700; margin-right: 0.4rem;}
-      .step .title {font-weight: 700; font-size: 1.05rem;}
-      .step .model {color: #6B6259; font-size: 0.8rem; margin-top: 0.4rem;}
-      .step .result {font-size: 1.15rem; margin-top: 0.6rem;}
-      .step.done {border: 2px solid #C13F26;}
+      .block-container {max-width: 900px; padding-top: 2rem;}
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+      .hero {display: flex; gap: 1.4rem; align-items: center; background: #F8EFEC; border-radius: 24px;
+             padding: 1.6rem 1.8rem; margin-bottom: 1.4rem; border-bottom: 3px dashed #E8D6D0;}
+      .hero .logo {width: 104px; height: 104px; background: #FFFFFF; border-radius: 26px; padding: 14px;
+                    box-shadow: 0 4px 14px rgba(167,44,44,0.15);}
+      .kicker {color: #6B6259; font-weight: 700; letter-spacing: 0.14em; font-size: 0.8rem;}
+      .hero h1 {font-family: 'Fraunces', Georgia, serif; font-size: 3rem; line-height: 1.1;
+                margin: 0.2rem 0 0.4rem 0; padding: 0; color: #2D2D2D;}
+      .hero .arrow {color: #E86248;}
+      .hero p {color: #6B6259; font-size: 1.02rem; margin: 0;}
+      .hero a {color: #B5462F; font-weight: 600;}
+      .dotted {border-top: 2px dashed #D5CFCA; margin: 1.2rem 0;}
+      .step {border-radius: 18px; padding: 0.9rem 1rem 1rem 1rem; height: 100%; border: 2px solid;}
+      .step-1 {background: #DBC3B6; border-color: #8F5A48;}
+      .step-2 {background: #E9C1BC; border-color: #D0574D;}
+      .step-3 {background: #E3CCB6; border-color: #B9845A;}
+      .step .num {display: inline-block; background: #A72C2C; color: #fff; border-radius: 999px;
+                  padding: 0 0.6rem; font-weight: 700; font-size: 0.85rem; margin-right: 0.4rem;}
+      .step .title {font-weight: 700; font-size: 1.1rem; color: #2D2D2D;}
+      .step .model {color: #6B6259; font-size: 0.8rem; margin-top: 0.3rem;}
+      .step .result {font-size: 1.1rem; margin-top: 0.6rem; color: #2D2D2D;}
+      .step code {color: #A72C2C; background: rgba(255,255,255,0.6);}
+      button[kind^="primary"], button[kind^="secondary"], [data-testid="stBaseButton-primary"],
+      [data-testid="stBaseButton-secondary"] {border-radius: 999px !important;}
+      [data-testid="stFormSubmitButton"] button {width: 100%; padding: 0.7rem; font-size: 1.1rem; font-weight: 600;}
+      [data-testid="stForm"] {background: #F8EFEC; border-radius: 18px; border-color: #E8D6D0;}
     </style>
     """, unsafe_allow_html=True)
 
 
 def step_card(number, title, task, model, result=None):
-    done = " done" if result is not None else ""
     body = f'<div class="result">{result}</div>' if result is not None else ""
-    return (f'<div class="step{done}"><span class="num">{number}</span><span class="title">{title}</span>'
+    return (f'<div class="step step-{number}"><span class="num">{number}</span><span class="title">{title}</span>'
             f'<div class="model"><code>{task}</code> · {model}</div>{body}</div>')
 
 
 def header():
+    """Banner like the top of the Nahui app: logo, small title, big title and a short explanation."""
+    logo = ""
     if os.path.exists(LOGO):
-        st.image(LOGO, width=72)
-    st.markdown('<div class="hero"><h1>📸 Photo → Product</h1>'
-                '<p>Upload a photo of an item and get a catalog entry in Spanish, ready for the merchant to review.<br>'
-                '<i>ISOM5240 (HKUST) course project proposal for <a href="https://about.nahui.app">Nahui</a></i></p></div>',
-                unsafe_allow_html=True)
+        with open(LOGO, "rb") as file:
+            logo = f'<img src="data:image/png;base64,{base64.b64encode(file.read()).decode()}" class="logo">'
+    st.markdown(f"""
+    <div class="hero">
+      {logo}
+      <div>
+        <div class="kicker">NAHUI · ISOM5240 COURSE PROJECT</div>
+        <h1>Photo <span class="arrow">→</span> Product</h1>
+        <p>Upload a photo of an item and get a catalog entry in Spanish, ready for the merchant to review.
+           A course project proposal for <a href="https://about.nahui.app">Nahui</a>.</p>
+      </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 
 def show_pipeline(proposal=None):
@@ -134,22 +160,24 @@ def photo_tab(pipes):
         st.session_state.photo_id = uploaded.file_id
     proposal = st.session_state.proposal
 
-    left, middle, right = st.columns([1, 2, 1])
-    middle.image(image)
+    left, middle, right = st.columns([1, 1, 1])
+    middle.image(image, width=260)
     show_pipeline(proposal)
     if proposal["confidence"] < LOW_CONFIDENCE:
         st.warning("Low confidence: please check the category. Other options: " +
                    ", ".join(f"{p['label']} ({p['score']:.0%})" for p in proposal["top3"][1:]))
 
+    st.markdown('<div class="dotted"></div>', unsafe_allow_html=True)
     st.subheader("✏️ Review and add to the catalog")
     with st.form("review_form"):
         category = st.selectbox("Category", categories, index=categories.index(proposal["category"]))
         name = st.text_input("Name", proposal["name"])
         description = st.text_area("Description", proposal["description"])
-        if st.form_submit_button("Add to catalog", type="primary"):
+        if st.form_submit_button("Add to catalog", type="primary", width="stretch"):
             st.session_state.catalog.append({"Categoría": category, "Nombre": name, "Descripción": description})
             st.success(f"Added: {name}")
 
+    st.markdown('<div class="dotted"></div>', unsafe_allow_html=True)
     st.subheader(f"🗂️ Your catalog ({len(st.session_state.catalog)} items)")
     if st.session_state.catalog:
         table = pd.DataFrame(st.session_state.catalog)
