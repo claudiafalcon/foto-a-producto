@@ -72,13 +72,12 @@ def apply_styles():
     st.markdown("""
     <style>
       .block-container {max-width: 900px; padding-top: 2rem;}
-      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
       .hero {display: flex; gap: 1.4rem; align-items: center; background: #F8EFEC; border-radius: 24px;
              padding: 1.6rem 1.8rem; margin-bottom: 1.4rem; border-bottom: 3px dashed #E8D6D0;}
       .hero .logo {width: 104px; height: 104px; background: #FFFFFF; border-radius: 26px; padding: 14px;
                     box-shadow: 0 4px 14px rgba(167,44,44,0.15);}
       .kicker {color: #6B6259; font-weight: 700; letter-spacing: 0.14em; font-size: 0.8rem;}
-      .hero h1 {font-family: 'Fraunces', Georgia, serif; font-size: 3rem; line-height: 1.1;
+      .hero h1 {font-size: 3rem; font-weight: 800; line-height: 1.1;
                 margin: 0.2rem 0 0.4rem 0; padding: 0; color: #2D2D2D;}
       .hero .arrow {color: #E86248;}
       .hero p {color: #6B6259; font-size: 1.02rem; margin: 0;}
@@ -93,7 +92,6 @@ def apply_styles():
       .step .title {font-weight: 700; font-size: 1.1rem; color: #2D2D2D;}
       .step .model {color: #6B6259; font-size: 0.8rem; margin-top: 0.3rem;}
       .step .result {font-size: 1.1rem; margin-top: 0.6rem; color: #2D2D2D;}
-      .step code {color: #A72C2C; background: rgba(255,255,255,0.6);}
       button[kind^="primary"], button[kind^="secondary"], [data-testid="stBaseButton-primary"],
       [data-testid="stBaseButton-secondary"] {border-radius: 999px !important;}
       [data-testid="stFormSubmitButton"] button {width: 100%; padding: 0.7rem; font-size: 1.1rem; font-weight: 600;}
@@ -105,7 +103,7 @@ def apply_styles():
 def step_card(number, title, task, model, result=None):
     body = f'<div class="result">{result}</div>' if result is not None else ""
     return (f'<div class="step step-{number}"><span class="num">{number}</span><span class="title">{title}</span>'
-            f'<div class="model"><code>{task}</code> · {model}</div>{body}</div>')
+            f'<div class="model">{task} · {model}</div>{body}</div>')
 
 
 def header():
