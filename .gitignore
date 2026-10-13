@@ -1,0 +1,12 @@
+data/images/
+*.zip
+fine_tuned_model/
+runs/
+__pycache__/
+.DS_Store
+# originals from the phone (full size); the app uses the resized copies in eval_images/real_photos
+data/real_photos/
+
+# working notes and drafts (kept private)
+GUIDE.md
+docs/*.md

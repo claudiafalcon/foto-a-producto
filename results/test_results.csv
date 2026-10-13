@@ -1,0 +1,2 @@
+test_accuracy,test_samples,test_runtime_s,test_samples_per_second
+0.9605,962,5.09,189.2
