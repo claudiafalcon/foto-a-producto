@@ -1,0 +1,10 @@
+# Nahui colours (same as https://about.nahui.app), light theme for every visitor.
+[theme]
+base = "light"
+primaryColor = "#C13F26"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F4F4"
+textColor = "#2D2D2D"
+
+[browser]
+gatherUsageStats = false
