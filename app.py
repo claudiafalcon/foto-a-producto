@@ -192,20 +192,23 @@ def evaluation_tab(pipes):
         st.info("No evaluation photos in this deployment.")
         return
     chosen = st.selectbox("Photo set", sets)
-    if not st.button("Run evaluation"):
+    if st.button("Run evaluation"):
+        folder = os.path.join(EVAL_FOLDER, chosen)
+        photos = [(category, file) for category in sorted(os.listdir(folder)) if not category.startswith(".")
+                  for file in sorted(os.listdir(os.path.join(folder, category))) if not file.startswith(".")]
+        rows, progress = [], st.progress(0.0)
+        for n, (true_category, file) in enumerate(photos, 1):
+            image = Image.open(os.path.join(folder, true_category, file)).convert("RGB")
+            entry = propose_entry(pipes, image)
+            rows.append({"photo": f"{true_category}/{file}", "true": true_category, "predicted": entry["category"],
+                         "correct": entry["category"] == true_category, "confidence": round(entry["confidence"], 3),
+                         "name": entry["name"], "description": entry["description"]})
+            progress.progress(n / len(photos))
+        st.session_state.setdefault("evaluations", {})[chosen] = pd.DataFrame(rows)   # kept after the page reruns
+
+    results = st.session_state.get("evaluations", {}).get(chosen)
+    if results is None:
         return
-    folder = os.path.join(EVAL_FOLDER, chosen)
-    photos = [(category, file) for category in sorted(os.listdir(folder)) if not category.startswith(".")
-              for file in sorted(os.listdir(os.path.join(folder, category))) if not file.startswith(".")]
-    rows, progress = [], st.progress(0.0)
-    for n, (true_category, file) in enumerate(photos, 1):
-        image = Image.open(os.path.join(folder, true_category, file)).convert("RGB")
-        entry = propose_entry(pipes, image)
-        rows.append({"photo": f"{true_category}/{file}", "true": true_category, "predicted": entry["category"],
-                     "correct": entry["category"] == true_category, "confidence": round(entry["confidence"], 3),
-                     "name": entry["name"], "description": entry["description"]})
-        progress.progress(n / len(photos))
-    results = pd.DataFrame(rows)
     st.metric("Accuracy", f"{results['correct'].mean():.1%}", f"{results['correct'].sum()} / {len(results)} photos")
     st.dataframe(results, hide_index=True)
     st.download_button("Download results (CSV)", results.to_csv(index=False).encode("utf-8"),
