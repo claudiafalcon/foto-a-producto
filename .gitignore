@@ -14,3 +14,6 @@ docs/*.md
 # private drafts for the submission (report, slides)
 submission_drafts/
 docs/*.docx
+
+# Local helper scripts
+tools/

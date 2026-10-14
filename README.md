@@ -33,7 +33,6 @@ photo ──► image-classification  (fine-tuned google/vit-base-patch16-224)  
 | `notebooks/03_test_and_experiments.ipynb` | Baseline comparison, captioner choice, full-pipeline and real-photo tests, Excel export |
 | `results/` | Tables produced by notebook 1 |
 | `eval_images/` | Labelled photos used by the app's Evaluation tab |
-| `tools/` | Scripts that generate the notebooks and the evaluation photo set |
 
 ## Data
 
