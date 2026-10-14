@@ -82,10 +82,10 @@ https://huggingface.co/datasets/ashraq/fashion-product-images-small · 44,072 pr
 
 - **Label:** `articleType` → our Spanish `category`. **Feature:** `image` (the merchant only gives us a photo).
 - **Balance:** 460 photos per category, picked at random with a fixed seed.
-- **Split 70 / 15 / 15 by product name.** The same product often has many almost identical photos
-  (*Locomotive Men Washed Blue Jeans* has 27). If they were spread over training and testing, the test would measure memory,
-  not new products. `GroupShuffleSplit` (scikit-learn, the same module as `train_test_split` in class) keeps all photos
-  of a product in one set.
+- **Split 70 / 15 / 15 by product name.** Many photos share a product name (*Locomotive Men Washed Blue Jeans* has 27):
+  different jeans of the same line, same studio and pose, so they look almost alike. If they were spread over training and
+  testing, the test would contain photos very similar to training ones (data leakage). `GroupShuffleSplit` (scikit-learn,
+  the same module as `train_test_split` in class) keeps all photos with the same product name in one set.
 """)
 code("""
 from datasets import load_dataset, DatasetDict
